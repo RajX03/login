@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(29, 92, 92); */
+    background-image: url("space.jpg");
+}
+.login-form{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 20px;
+    border: 5px solid #000000;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    height: 500px;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+}
+.username{
+    justify-content: center;
+    /* display: flex; */
+    align-items: center;
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.password{
+    justify-content: center;
+    /* display: flex; */
+    align-items: center;
+    margin-left: 50px;
+}
+.button{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+#login-form-submit{
+    height: 50px;
+    width: 200px;
+    background-color: aqua;
+    font-size: 1.4rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+#username-field{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+}
+#password-field{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+
+}
+.heading1{
+    font-size: 1.5rem;
+}
+.heading2{
+    font-size: 1.5rem;
+}
+.forgot{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    font-size: 18px;
+
+}
